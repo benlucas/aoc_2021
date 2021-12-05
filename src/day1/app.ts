@@ -1,5 +1,4 @@
-import { readFileSync, createReadStream } from 'fs';
-import * as readline from 'readline';
+import { readFileSync } from 'fs';
 
 const values = readFileSync('src/day1/input.txt', 'utf-8')
     .split("\n")
